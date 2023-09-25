@@ -1,0 +1,8 @@
+[Unit]
+Description=Minecraft virtualized server
+target=
+
+[Service]
+
+
+[Install]
