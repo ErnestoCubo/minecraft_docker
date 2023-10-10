@@ -3,9 +3,9 @@ services:
   minecraft-server:
     container_name: minecraft_server
     build:
-      context: /home/minecraft_user/server/
+      context: /home/minecraft_user/server/minecraft_docker
     ports:
-      - "25566:25565"
+      - "25565:25565"
     environment:
       - EULA=true
       - MINECRAFT_VERSION=1.20
